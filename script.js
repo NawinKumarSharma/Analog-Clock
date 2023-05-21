@@ -18,7 +18,9 @@ function displayTime() {
   sec.style.transform = `rotate(${s_rotation}deg)`;
 
 }
-setInterval(displayTime, 1000)
+
+displayTime();
+setInterval(displayTime, 1000);
 //***********************LOGIC********************************************** */
 // 12 hour = 360deg
 // 1 hour = 360/12= 30 deg

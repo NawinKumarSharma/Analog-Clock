@@ -88,6 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: all linear 0.1s;
 }
 
 .hand i {
